@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="529.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.FXMLCreateCustomerController">
+   <children>
+      <TextField fx:id="idField" layoutX="76.0" layoutY="67.0" onMouseClicked="#idTextOnMouseClicked" text="Enter ID" />
+      <TextField fx:id="nameField" layoutX="76.0" layoutY="115.0" onMouseClicked="#nameTextOnMouseClicked" text="Enter Name" />
+      <TextField fx:id="emailField" layoutX="76.0" layoutY="227.0" onMouseClicked="#emailTextOnMouseClicked" text="Email" />
+      <TextField fx:id="passField" layoutX="76.0" layoutY="291.0" onMouseClicked="#passwordTextOnMouseClicked" text="Password" />
+      <Button layoutX="286.0" layoutY="67.0" mnemonicParsing="false" onAction="#clickOnReadButton" prefHeight="25.0" prefWidth="400.0" text="Read File" />
+      <Button layoutX="76.0" layoutY="414.0" mnemonicParsing="false" onAction="#clickOnSubmitButton" prefHeight="25.0" prefWidth="83.0" text="Submit" />
+      <TextArea fx:id="outputTextArea" layoutX="286.0" layoutY="107.0" prefHeight="332.0" prefWidth="400.0" text="Output Text Area.............." />
+      <DatePicker fx:id="dateField" layoutX="76.0" layoutY="354.0" />
+      <ComboBox fx:id="userTypeField" layoutX="76.0" layoutY="169.0" prefWidth="150.0" />
+      <Button layoutX="186.0" layoutY="414.0" mnemonicParsing="false" onAction="#onClickHomeScene" text="Home Scene" />
+   </children>
+</AnchorPane>
